@@ -29,8 +29,6 @@ header{
 .header1{
     background-color: #ADD8E6;
     height: 14%;    
-    align-items: center;
-    justify-content: center;
 }
 
 nav{
@@ -40,14 +38,14 @@ nav{
 }
 
 .small-section{
-    width: 20%;
+    flex-grow: 2;
     height: 100%;
     align-items: center;
     padding: 10px;
 }
 
 .links{
-    width: 60%;
+    flex-grow: 6;
     height: 100%;
     align-items: center;
     justify-content: center;   
@@ -115,7 +113,7 @@ ul{
 }
 
 .big-background{
-    height: 800px;
+    height: 850px;
     width: 100%;
 }
 
@@ -126,21 +124,21 @@ ul{
 }
 
 footer{
-    height: 1000px;
+    height: 800px;
     width: 100%;
     background-color: #23272A;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .upper-footer{
-    height: 80%;
+    height: 760px;
     width: 100%;
     justify-content: center;
 }
 
 .square-peach-teal{   
-    height: 90%;
+    height: 95%;
     width: 70%;
     padding-top: 20px;
 }
@@ -157,29 +155,30 @@ footer{
     width: 75%;
 }
 
+.flex-teal-child{
+    flex-grow: 1;
+} 
+
 .white-border{
     border: 4px white dashed;
 }
 
-/*
-.grey-line{
-    flex-direction: row;
+.gray-line{
     height: 2px;
     width: 100%;
     background-color: #D6D7D7;
 }
-*/
 
 .footer-wrapper{  
     justify-content: center;
     align-items: flex-end;
     width: 100%;
-    height: 200px;
+    height: 114px;
 }
 
-.last-footer{
+.bottom-footer{
     background-color: #7FFFD4;
-    height: 50%;
+    height: 80px;
     width: 70%;  
     align-items: center;
     justify-content: space-between;
