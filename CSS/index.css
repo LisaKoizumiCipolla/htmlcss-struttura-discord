@@ -20,12 +20,12 @@
 }
 
 .border{
-    border: 2px black dashed;   
+    border: 4px black dashed;   
 }
 
 header{
     width: 100%;
-    height: 500px;
+    height: 750px;
 }
 
 .header1{
@@ -36,7 +36,7 @@ header{
 
 nav{
     background-color: #DAA520;
-    height: 60%;
+    height: 65%;
 }
 
 .small-section{
@@ -49,12 +49,12 @@ nav{
 .links{
     width: 60%;
     height: 100%;
-    align-items: center;   
+    align-items: center;
+    justify-content: space-between;   
 }
 
 ul{    
     list-style-type: none;
-    justify-content: space-between;
 }
 
 li{
@@ -83,7 +83,7 @@ li{
 }
 
 .blue-pink{
-    height: 500px;
+    height: 700px;
     width: 100%;
     align-items: center;
 }
@@ -122,4 +122,73 @@ li{
     background-color: #228B22;
     width: 70%;
     height: 700px;
+}
+
+footer{
+    height: 1000px;
+    width: 100%;
+    background-color: #23272A;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upper-footer{
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+}
+
+.square-peach-teal{   
+    height: 90%;
+    width: 70%;
+    padding-top: 20px;
+}
+
+.square-peach{
+    background-color: #F08080;
+    height: 100%;
+    width: 25%;
+}
+
+.square-teal{
+    background-color: #20B2AA;
+    height: 100%;
+    width: 75%;
+}
+
+.white-border{
+    border: 4px white dashed;
+}
+
+/*
+.grey-line{
+    flex-direction: row;
+    height: 2px;
+    width: 100%;
+    background-color: #D6D7D7;
+}
+*/
+
+.footer-wrapper{  
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 200px;
+}
+
+.last-footer{
+    background-color: #7FFFD4;
+    height: 50%;
+    width: 70%;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    color: black;
+    background-color: #FFB6C1;
+    height: 50%;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
 }
