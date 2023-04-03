@@ -83,14 +83,13 @@ li{
 }
 
 .blue-pink{
-    background-color: white;
     height: 700px;
     width: 100%;
     align-items: center;
 }
 
-.pink-blue{
-    background-color: #D3D3D3;
+.bg-white{
+    background-color: white;
 }
 
 .square-blue-pink{
@@ -108,4 +107,8 @@ li{
     background-color: #FFC0CB;
     width: 30%;
     height: 100%;
+}
+
+.bg-gray{
+    background-color: #D3D3D3;
 }
